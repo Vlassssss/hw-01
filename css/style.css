@@ -39,7 +39,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 .root{
 	font-weight: 400;
-	font-family:'Poppins';
 }
 
 .container{
@@ -141,7 +140,6 @@ font-size: 20px;
 	font-weight: 600;
 	font-size: 48px;
 	line-height: 90%;
-	letter-spacing: 0.1em;
 	padding-bottom: 44px;
 }
 
@@ -225,7 +223,7 @@ font-size: 20px;
 .comments__card{
 	border-radius: 50px;
 	width: 275px;
-	height: 330px;
+	height: 350px;
 	background-color: #303030;
 	color:white;
 	text-align: center;
@@ -234,7 +232,7 @@ font-size: 20px;
 
 .comments__image{
 	width: 79px;
-	padding-bottom: 25px;
+	margin-bottom: 25px;
 }
 
 .comments__card-center{
@@ -244,12 +242,12 @@ font-size: 20px;
 	background-color: #303030;
 	color:white;
 	text-align: center;
-	padding:58px;
+	padding:44px;
 }
 
 .comments__image-center{
 	width: 107px;
-	padding-bottom: 25px;
+	margin-bottom: 25px;
 }
 
 .comments__card-name{
@@ -262,6 +260,7 @@ font-size: 20px;
 	font-weight: 400;
 	font-size: 20px;
 	line-height: 120%;
+    text-align: left;
 }
 
 
@@ -335,12 +334,13 @@ font-size: 20px;
 
 .form__input{
 	display:block;
-	margin: 37px 0px;
+	margin: 16px 0px 30px;
 	border: 1px solid #000;
 	border-radius: 25px;
 	width: 429px;
 	height: 53px;
 	font-size: 25px;
+    padding:10px;
 }
 
 .footer__title{
@@ -348,11 +348,11 @@ font-size: 20px;
 	font-size: 32px;
 	line-height: 75%;
 	text-align: center;
-	padding-bottom:82px;
+	margin-bottom:82px;
 }
 
 .form__text{
-	font-weight: 600;
+	font-weight: 400;
 	font-size: 24px;
 }
 
@@ -366,17 +366,17 @@ font-size: 20px;
 }
 
 .row{
-	margin-top: 5px;
+	margin-top: 1px;
 }
 
 .footer__image{
 	display:flex;
-	gap:0 58px;
-	padding-bottom: 61px;
+	gap:0 38px;
+	margin-bottom: 61px;
 }
 
 .footer__text{
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 24px;
 	line-height: 100%;
 }
